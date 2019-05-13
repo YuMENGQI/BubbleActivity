@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.android.byc.bubbleactivity.PopLayout
+            android:id="@+id/PopLayout"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="150dp"/>
+
+    <com.android.byc.bubbleactivity.MenuLayout
+            android:id="@+id/menu_layout"
+            android:layout_marginStart="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <FrameLayout android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/debug_text"
+                android:text="asdsad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+</LinearLayout>

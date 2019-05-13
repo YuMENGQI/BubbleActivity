@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.android.byc.bubbleactivity.PopLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pl_pop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.android.byc.bubbleactivity.OptionMenuView
+        android:id="@+id/omv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</com.android.byc.bubbleactivity.PopLayout>
